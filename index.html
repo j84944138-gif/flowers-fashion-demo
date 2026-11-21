@@ -16,6 +16,9 @@
 <meta name="twitter:title" content="The Flowers Fashion — Fresh Flowers, Delivered Day & Midnight" />
 <meta name="twitter:description" content="Same-day and midnight flower delivery in Islamabad & Rawalpindi. Open 24/7 at F-6 Markaz." />
 <meta name="twitter:image" content="https://j84944138-gif.github.io/flowers-fashion-demo/assets/p05.jpg" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Florist","name":"The Flowers Fashion","description":"Fresh hand-tied bouquets delivered same day and at midnight in Islamabad & Rawalpindi. Open 24/7 at F-6 Markaz, Islamabad.","telephone":"+92 315 4442395","priceRange":"Rs 6,500 - Rs 28,000","address":{"@type":"PostalAddress","streetAddress":"Agha Khan Road, F-6/1 Markaz","addressLocality":"Islamabad","addressCountry":"PK"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"38"}}
+</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='23' fill='%23FDECF0'/%3E%3Ccircle cx='24' cy='16' r='6.5' fill='%23E77A9B'/%3E%3Ccircle cx='31.5' cy='24' r='6.5' fill='%23D14E77'/%3E%3Ccircle cx='24' cy='32' r='6.5' fill='%23E77A9B'/%3E%3Ccircle cx='16.5' cy='24' r='6.5' fill='%23D14E77'/%3E%3Ccircle cx='24' cy='24' r='4' fill='%23F6C453'/%3E%3C/svg%3E" />
 <title>The Flowers Fashion — Fresh Flowers, Delivered Day & Midnight | Islamabad</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -471,6 +474,45 @@ summary:focus-visible{outline:3px solid var(--rose);outline-offset:-3px}
   .mobile-bar .mb-wa{flex:1;display:flex;align-items:center;justify-content:center;gap:7px;background:#1FA855;color:#FFF;text-decoration:none;border-radius:999px;padding:12px 10px;font-size:.92rem;font-weight:700;min-height:50px}
   .toast{bottom:92px}
 }
+/* ---------- Premium pass ---------- */
+::selection{background:#F3CBD4;color:#57253C}
+h1,h2{text-wrap:balance;letter-spacing:-.01em}
+.sec-head .kicker{display:flex;align-items:center;justify-content:center;gap:14px}
+.sec-head .kicker::before,.sec-head .kicker::after{content:"";width:36px;height:1px;background:linear-gradient(90deg,transparent,var(--gold));flex-shrink:0}
+.sec-head .kicker::after{background:linear-gradient(90deg,var(--gold),transparent)}
+.sec-head h2::after{content:"";display:block;width:58px;height:2px;margin:16px auto 0;border-radius:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.btn{letter-spacing:.02em}
+.btn-rose{background:linear-gradient(135deg,#CE5C84,#9C3355);box-shadow:0 12px 24px -12px rgba(156,51,85,.6)}
+.btn-rose:hover{background:linear-gradient(135deg,#C4507A,#8E2C4E)}
+.btn-green{background:linear-gradient(135deg,#A03C61,#8A2F52);box-shadow:0 12px 24px -12px rgba(87,37,60,.55)}
+.btn-green:hover{background:linear-gradient(135deg,#AC4770,#93355A)}
+nav.main a{position:relative}
+nav.main a::after{content:"";position:absolute;left:8px;right:8px;bottom:4px;height:2px;border-radius:2px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .3s ease}
+nav.main a:hover::after{transform:scaleX(1)}
+.hero-card{border-color:rgba(192,154,62,.55)}
+.prod:hover{box-shadow:0 22px 38px -18px rgba(87,37,60,.4),0 0 0 1px rgba(192,154,62,.5)}
+.prod-img::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 32%,rgba(255,255,255,.26) 48%,transparent 64%);transform:translateX(-130%);transition:transform .85s ease;pointer-events:none;z-index:2}
+.prod:hover .prod-img::after{transform:translateX(130%)}
+.prod-price{font-family:'Playfair Display',Georgia,serif;font-size:1.22rem}
+.cta-band,.custom-band{box-shadow:inset 0 0 0 6px rgba(255,248,244,.05),inset 0 0 0 7px rgba(240,199,135,.45)}
+.rev{position:relative}
+.rev::before{content:"\201C";position:absolute;top:0;right:20px;font-family:'Playfair Display',serif;font-size:4.4rem;line-height:1;color:var(--blush);pointer-events:none}
+footer{box-shadow:inset 0 1px 0 rgba(240,199,135,.45)}
+.t-ico{color:#F0C987}
+.t-ico svg{width:22px;height:22px;display:block}
+.why-card .w-ico{color:var(--rose-deep)}
+.why-card .w-ico svg{width:30px;height:30px;display:block}
+@media (prefers-color-scheme: dark){.why-card .w-ico{color:#F3A8BE}}
+.icon-btn svg{width:21px;height:21px;display:block}
+/* ---------- Occasions ribbon ---------- */
+.marquee{background:var(--green-950);color:#EFE7D3;overflow:hidden;padding:13px 0;border-top:1px solid rgba(240,199,135,.35);border-bottom:1px solid rgba(240,199,135,.35)}
+.marquee-track{display:flex;width:max-content;animation:mqScroll 32s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+.mq-set{display:flex;align-items:center;flex-shrink:0}
+.mq-set span{font-family:'Playfair Display',serif;font-style:italic;font-size:1.02rem;white-space:nowrap;padding:0 26px}
+.mq-set i{color:var(--gold);font-style:normal;font-size:.8rem}
+@keyframes mqScroll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion: reduce){.marquee-track{animation:none}.prod-img::after{display:none}}
 </style>
 </head>
 <body>
@@ -490,7 +532,7 @@ summary:focus-visible{outline:3px solid var(--rose);outline-offset:-3px}
     </nav>
     <div class="header-actions">
       <a class="btn btn-wa btn-sm" href="https://wa.me/923154442395?text=Hello%20The%20Flowers%20Fashion!%20I%20would%20like%20to%20order%20flowers." target="_blank" rel="noopener" aria-label="Order on WhatsApp">💬 <span>Order</span></a>
-      <button class="icon-btn" id="cartBtn" aria-label="Open cart">🛍️<span class="cart-count" id="cartCount">0</span></button>
+      <button class="icon-btn" id="cartBtn" aria-label="Open cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 8h13l-1.1 12h-10.8z"/><path d="M8.8 10V6.6a3.2 3.2 0 0 1 6.4 0V10"/></svg><span class="cart-count" id="cartCount">0</span></button>
       <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
     </div>
   </div>
@@ -522,10 +564,18 @@ summary:focus-visible{outline:3px solid var(--rose);outline-offset:-3px}
   <!-- TRUST STRIP -->
   <div class="trust">
     <div class="wrap trust-in">
-      <div class="trust-item"><span class="t-ico">🕛</span><div><strong>Open 24/7</strong><span>Order any time, day or night</span></div></div>
-      <div class="trust-item"><span class="t-ico">🚗</span><div><strong>Same-Day Delivery</strong><span>Islamabad &amp; Rawalpindi</span></div></div>
-      <div class="trust-item"><span class="t-ico">🌙</span><div><strong>Midnight Delivery</strong><span>Surprises at 12 AM sharp</span></div></div>
-      <div class="trust-item"><span class="t-ico">🌹</span><div><strong>Freshness Guaranteed</strong><span>Cut &amp; arranged the same day</span></div></div>
+      <div class="trust-item"><span class="t-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></span><div><strong>Open 24/7</strong><span>Order any time, day or night</span></div></div>
+      <div class="trust-item"><span class="t-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h11v9H3z"/><path d="M14 10h3.6L21 13.4V16h-7z"/><circle cx="7" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></span><div><strong>Same-Day Delivery</strong><span>Islamabad &amp; Rawalpindi</span></div></div>
+      <div class="trust-item"><span class="t-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13.6A8.2 8.2 0 1 1 10.4 4 6.6 6.6 0 0 0 20 13.6z"/></svg></span><div><strong>Midnight Delivery</strong><span>Surprises at 12 AM sharp</span></div></div>
+      <div class="trust-item"><span class="t-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><g><path d="M12 3.2c1.7 1.9 1.7 4.3 0 6.2-1.7-1.9-1.7-4.3 0-6.2z"/><path d="M12 3.2c1.7 1.9 1.7 4.3 0 6.2-1.7-1.9-1.7-4.3 0-6.2z" transform="rotate(72 12 12)"/><path d="M12 3.2c1.7 1.9 1.7 4.3 0 6.2-1.7-1.9-1.7-4.3 0-6.2z" transform="rotate(144 12 12)"/><path d="M12 3.2c1.7 1.9 1.7 4.3 0 6.2-1.7-1.9-1.7-4.3 0-6.2z" transform="rotate(216 12 12)"/><path d="M12 3.2c1.7 1.9 1.7 4.3 0 6.2-1.7-1.9-1.7-4.3 0-6.2z" transform="rotate(288 12 12)"/><circle cx="12" cy="12" r="1.9"/></g></svg></span><div><strong>Freshness Guaranteed</strong><span>Cut &amp; arranged the same day</span></div></div>
+    </div>
+  </div>
+
+  <!-- OCCASIONS RIBBON -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <div class="mq-set"><span>Midnight Delivery</span><i>✦</i><span>Same-Day Delivery</span><i>✦</i><span>Hand-Tied Fresh Daily</span><i>✦</i><span>Free Handwritten Gift Card</span><i>✦</i><span>Rated 4.9 on Google</span><i>✦</i><span>Open 24 Hours, 7 Days</span><i>✦</i></div>
+      <div class="mq-set"><span>Midnight Delivery</span><i>✦</i><span>Same-Day Delivery</span><i>✦</i><span>Hand-Tied Fresh Daily</span><i>✦</i><span>Free Handwritten Gift Card</span><i>✦</i><span>Rated 4.9 on Google</span><i>✦</i><span>Open 24 Hours, 7 Days</span><i>✦</i></div>
     </div>
   </div>
 
@@ -619,10 +669,10 @@ summary:focus-visible{outline:3px solid var(--rose);outline-offset:-3px}
         <h2>The florist Islamabad trusts at 2 AM</h2>
       </div>
       <div class="why-grid">
-        <div class="why-card"><div class="w-ico">🌙</div><h3>Midnight delivery, done right</h3><p>Forgot a birthday until 11 PM? We deliver at midnight across the twin cities, right on time.</p></div>
-        <div class="why-card"><div class="w-ico">🌹</div><h3>Fresh, never stocked</h3><p>Cut and arranged on the day of delivery. If it does not look fresh, we replace it.</p></div>
-        <div class="why-card"><div class="w-ico">⭐</div><h3>Rated 4.9 on Google</h3><p>38 reviews and a 4.9-star average from customers across Islamabad &amp; Rawalpindi.</p></div>
-        <div class="why-card"><div class="w-ico">💬</div><h3>Order in one WhatsApp tap</h3><p>No accounts, no fuss. Message us, share a photo, and we arrange and deliver it.</p></div>
+        <div class="why-card"><div class="w-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13.6A8.2 8.2 0 1 1 10.4 4 6.6 6.6 0 0 0 20 13.6z"/></svg></div><h3>Midnight delivery, done right</h3><p>Forgot a birthday until 11 PM? We deliver at midnight across the twin cities, right on time.</p></div>
+        <div class="why-card"><div class="w-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.2c1.7 1.9 1.7 4.3 0 6.2-1.7-1.9-1.7-4.3 0-6.2z"/><path d="M12 3.2c1.7 1.9 1.7 4.3 0 6.2-1.7-1.9-1.7-4.3 0-6.2z" transform="rotate(72 12 12)"/><path d="M12 3.2c1.7 1.9 1.7 4.3 0 6.2-1.7-1.9-1.7-4.3 0-6.2z" transform="rotate(144 12 12)"/><path d="M12 3.2c1.7 1.9 1.7 4.3 0 6.2-1.7-1.9-1.7-4.3 0-6.2z" transform="rotate(216 12 12)"/><path d="M12 3.2c1.7 1.9 1.7 4.3 0 6.2-1.7-1.9-1.7-4.3 0-6.2z" transform="rotate(288 12 12)"/><circle cx="12" cy="12" r="1.9"/></svg></div><h3>Fresh, never stocked</h3><p>Cut and arranged on the day of delivery. If it does not look fresh, we replace it.</p></div>
+        <div class="why-card"><div class="w-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3.6l2.5 5.2 5.7.7-4.2 3.9 1.1 5.6L12 16.3l-5.1 2.7 1.1-5.6L3.8 9.5l5.7-.7z"/></svg></div><h3>Rated 4.9 on Google</h3><p>38 reviews and a 4.9-star average from customers across Islamabad &amp; Rawalpindi.</p></div>
+        <div class="why-card"><div class="w-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5h16v10.5H10l-4.2 3.6v-3.6H4z"/><path d="M8 9.2h8M8 12.2h5"/></svg></div><h3>Order in one WhatsApp tap</h3><p>No accounts, no fuss. Message us, share a photo, and we arrange and deliver it.</p></div>
       </div>
     </div>
   </section>
